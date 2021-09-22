@@ -55,3 +55,6 @@ The application won't wait for them to be completed.
 Note: 
 By default, the threads are foreground threads. So when we create a thread the default value of IsBackground property would be false.
 
+-- Joining Threads
+
+
