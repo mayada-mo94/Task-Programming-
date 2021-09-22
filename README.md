@@ -9,6 +9,8 @@ Task is a higher level of abstraction, Tasks provide two primary benefits:
 	2- More programmatic control than is possible with a thread or work item.
 
 In ParallelTask.cs you can find 5 region:
+
+
 	First Region
 	[Use The Parallel.Invoke method provides a convenient way to run any number of arbitrary statements concurrently.
 	also, I used set maximum number of concurrent tasks enabled by this ParallelOptions instance.]
