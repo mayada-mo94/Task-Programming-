@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -25,7 +22,7 @@ namespace TaskProgramming
         }
 
         #endregion
-        #region Regular Queue with more than one thread
+        #region Regular Queue with more than one thread  (failure scenario)
         static void Main9()
         {
             var phoneOrders = new Queue<string>();
@@ -53,7 +50,7 @@ namespace TaskProgramming
             }
         }
         #endregion
-        #region Concurrent Queue with more than one thread
+        #region Concurrent Queue with more than one thread (thread safe)
         static void Main11()
         {
             var phoneOrders = new ConcurrentQueue<string>();

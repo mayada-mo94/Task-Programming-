@@ -63,7 +63,7 @@ namespace TaskProgramming
         #region Joining Threads
         static Thread thread1, thread2;
 
-        public static void Main()
+        public static void Main20()
         {
             thread1 = new Thread(ThreadProc);
             thread1.Name = "Thread1";
